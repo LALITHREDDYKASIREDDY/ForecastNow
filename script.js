@@ -131,7 +131,7 @@ async function fetchSearchWeatherInfo(city) {
 let searchInput=document.querySelector('[data-searchInput]')
 searchForm.addEventListener('submit', (e)=>{
    e.preventDefault();
-   if(searchInput.value==" ")
+   if(searchInput.value=="")
    return;
      
     fetchSearchWeatherInfo(searchInput.value )
