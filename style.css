@@ -43,7 +43,7 @@ h1 {
     border-radius: 4px;
 }
 .weather-container{
-
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
